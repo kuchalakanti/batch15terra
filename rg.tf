@@ -13,3 +13,9 @@ resource "azurerm_resource_group" "example" {
     name = krishna
   }
 }
+  name     = "krishna"
+  location = "West Europe2"
+  tags = {
+    name = krishna
+  }
+}
